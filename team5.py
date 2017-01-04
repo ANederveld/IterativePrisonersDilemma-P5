@@ -4,11 +4,12 @@
 #     strategy_name: a string
 #     strategy_description: a string
 #     move: A function that returns 'c' or 'b'
+#   Alena Nederveld and Sofia Del Aguila
 ####
 
 team_name = 'The Cows' # Only 10 chars displayed.
 strategy_name = 'Hungry'
-strategy_description = 'Cows are smart when theyre hungry?'
+strategy_description = 'Cows are smart when they are hungry'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
